@@ -1,0 +1,5 @@
+<Response>
+<Play> https://30d3-47-225-230-100.ngrok-free.app/EmptyRecording.mp3 </Play>
+<Pause length="2"/>
+<Redirect method="GET">index.xml</Redirect>
+</Response>
