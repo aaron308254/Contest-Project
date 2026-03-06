@@ -7,12 +7,7 @@ import imageio_ffmpeg
 import os
 import time
 
-#WPR Midday Quiz: 18004427106 Around 12:30 PM CST
-#Email answer to midday@wpr.org
-#Maybe add a way to auto send emails
 #Preemptive message to chatgpt: Answer this quiz question concisely, ideally with only the answer:
-#Create 10 email addresses to send emails
-#Append Aaron Jones, Madison WI to end
 
 # Radio Stream URL
 STREAM_URL = "https://wpr-ice.streamguys1.com/wpr-music-mp3-96"
@@ -72,4 +67,5 @@ def listen_to_radio():
 if __name__ == "__main__":
     while True:
         print("\n Listening for contest....")
+
         listen_to_radio()
